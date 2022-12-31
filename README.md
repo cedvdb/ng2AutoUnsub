@@ -1,5 +1,5 @@
 Usage example :
-When you subscribe to an observable just add takeUntil(.takeUntil(this._destroy$) and your subscriptions will be automatically unsubbed on destroy.
+When you subscribe to an observable just add `.takeUntil(this._destroy$)` and your subscriptions will be automatically unsubbed on destroy.
 
 ```
 import { AutoUnsub } from 'ng2-auto-unsub/auto-unsub.component';
